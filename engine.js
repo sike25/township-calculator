@@ -36,7 +36,7 @@ const lavender     = new Good(sellOffPrice=40, timeToMakeInSeconds=18000, ingred
 
 // MINE
 const clay       = new Good(sellOffPrice=40, timeToMakeInSeconds=0, ingredients=[]);
-const copper_ore = new Good(sellOffPrice=8, timeToMakeInSeconds=0, ingredients=[]);
+const copper_ore = new Good(sellOffPrice=8,  timeToMakeInSeconds=0, ingredients=[]);
 const silver_ore = new Good(sellOffPrice=12, timeToMakeInSeconds=0, ingredients=[]);
 
 // FEED
@@ -54,13 +54,12 @@ const wool       = new Good(sellOffPrice=15, timeToMakeInSeconds=14400, ingredie
 const honeycombs = new Good(sellOffPrice=22, timeToMakeInSeconds=21600, ingredients=[[bee_feed, 1]]);
 const bacon      = new Good(sellOffPrice=32, timeToMakeInSeconds=25200, ingredients=[[pig_feed, 1]]);
 const mushroom   = new Good(sellOffPrice=69, timeToMakeInSeconds=18000, ingredients=[[substrate, 1]]);
-
-// to-do
-const down_feather = new Good(sellOffPrice=69, timeToMakeInSeconds=18000, ingredients=[substrate]);
-const colorful_feather   = new Good(sellOffPrice=69, timeToMakeInSeconds=18000, ingredients=[substrate]);
-const seaweed  = new Good(sellOffPrice=69, timeToMakeInSeconds=18000, ingredients=[substrate]);
-const scallop   = new Good(sellOffPrice=69, timeToMakeInSeconds=18000, ingredients=[substrate]);
-const pearls = new Good(sellOffPrice=69, timeToMakeInSeconds=18000, ingredients=[substrate]);
+// iffy
+const down_feather     = new Good(sellOffPrice=12, timeToMakeInSeconds=3600,  ingredients=[[bagel, 1]]);
+const colorful_feather = new Good(sellOffPrice=31, timeToMakeInSeconds=3600,  ingredients=[[bagel, 1]]);
+const seaweed          = new Good(sellOffPrice=43, timeToMakeInSeconds=14400, ingredients=[[bacon, 1]]);
+const scallop          = new Good(sellOffPrice=54, timeToMakeInSeconds=14400, ingredients=[[bacon, 1]]);
+const pearls           = new Good(sellOffPrice=64, timeToMakeInSeconds=14400, ingredients=[[bacon, 1]]);
 
 // ISLAND GOODS
 const peach      = new Good(sellOffPrice=34,  timeToMakeInSeconds=14400, ingredients=[]);
