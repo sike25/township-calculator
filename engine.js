@@ -428,4 +428,4 @@ for (const item of order) {
 }
 
 const profit = offer - sellOffTotal;
-console.log(`Sell off price is ${sellOffTotal}. Profit: ${profit}`);
+console.log(`Sell-off price is ${sellOffTotal}. Profit: ${profit}`);
